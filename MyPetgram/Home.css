@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    
+}
+header{
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+}
+.perfil h3{
+    padding: 10px;
+}
+
+.img1{
+    border-radius: 50%;
+    height: 60px;
+}
+body{
+    background-color: #F6FDFE;
+    margin: 0.5rem;
+    justify-content: center;
+    display:grid
+    
+}
+
+.img2{
+    border-radius: 50%;
+    height: 60px;
+}
+.post{
+    font-family:"Poppins", sans-serif;
+    background-color: #E6EEFF;
+    border: 2px solid #D1E8E5;
+    
+    
+    border-radius: 5%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.user{
+    padding-top: 0.5rem;
+    
+    display: flex;
+    align-items: center;
+}
+.user p{
+    padding-left: 5px;
+}
+.user1 img{
+    padding: 0.2rem;
+    
+}
+.postagem{
+    
+    margin: 2px;
+    padding:0.5rem;  
+}
+.postagem p{
+    font-size: 20px;
+}
+.postagem img{
+    height: 500px;
+    border-radius: 2%;
+}
+.osso{
+    height: 60px;
+}
+.botão{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    
+}
+
+.botão svg:hover{
+    background-color: #68A9E3;
+    cursor: pointer;
+}
+.botão svg{
+    width:30px;
+    margin-bottom: 10px;
+}
